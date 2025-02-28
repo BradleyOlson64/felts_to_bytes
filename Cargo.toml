@@ -1,0 +1,9 @@
+[package]
+name = "felts_to_bytes"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8"
+starknet-crypto = { version = "0.7", default-features = false }
+hex = { version = "0.4.3", features = ["alloc"]}
